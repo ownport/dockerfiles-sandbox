@@ -3,7 +3,16 @@ dockerfiles
 
 The collection of dockerfiles
 
+
 ## Docker hints
+
+Docker installation on Ubuntu 14.04 LTS and run Ubuntu container
+
+```
+sudo apt-get install docker.io
+sudo docker.io pull ubuntu
+sudo docker.io run -i -t ubuntu /bin/bash
+```
 
 start the container daemon in background
 ```
