@@ -6,5 +6,9 @@ Before run please check that the script run-as.sh was copied to /bin directory
 
 usage: 
 ```sh
-docker run -i --name <container-name> -t --rm <image-name> /bin/run-as.sh
+$ docker run -i --name <container-name> -t --rm <image-name> /bin/run-as.sh
+```
+or
+```sh
+$ docker run -i --name <container-name> -t --rm <image-name> /bin/run-as.sh ${USER} ${UID} /bin/bash
 ```
