@@ -13,4 +13,4 @@ echo "Prepare to run '${CMD}' from user: ${USERNAME}/${USERID}"
 adduser --disabled-password --gecos '' --uid ${USERID} ${USERNAME}
 adduser ${USERNAME} sudo
 echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
-sudo -u ${USERNAME} ${CMD}
+sudo -u ${USERNAME} ${CMD} ${4} ${5} ${6} ${7} ${8} ${9} ${10}
