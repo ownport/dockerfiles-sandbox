@@ -13,4 +13,3 @@ mkdir -p ${ROOT_PATH%%/}/etc/rethinkdb/
 mkdir -p ${ROOT_PATH%%/}/var/run/rethinkdb/
 mkdir -p ${ROOT_PATH%%/}/var/lib/rethinkdb/default
 mkdir -p ${ROOT_PATH%%/}/var/log/rethinkdb
-mkdir -p ${ROOT_PATH%%/}/run/
