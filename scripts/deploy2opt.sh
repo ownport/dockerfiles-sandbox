@@ -4,7 +4,7 @@ SOURCE_URL=${1}     # http://download.oracle.com/otn-pub/java/jdk/7u71-b14/jdk-7
 WGET_OPTIONS=${2}   # --header "Cookie: oraclelicense=accept-securebackup-cookie"
 
 usage() {
-    echo  "usage: $0 <SOURCE_URL> <TARGET_FILE> <TMP_DIR> <WGET_OPTIONS>"
+    echo  "usage: $0 <SOURCE_URL> <WGET_OPTIONS>"
 }
 
 
