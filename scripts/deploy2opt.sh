@@ -43,6 +43,5 @@ eval wget -c --progress=dot:mega --no-check-certificate --no-cookies ${WGET_OPTI
     rm /tmp/${FILENAME} && \
     echo "- Copying files to /opt ..." && \
     mv ${TMP_DIR%%/}* /opt && \
-    rmdir ${TMP_DIR} && \
     echo "- Deployment completed"
 
