@@ -1,8 +1,6 @@
 # based on official dockerfile/nginx
 # https://github.com/dockerfile/nginx/blob/master/Dockerfile
-
 FROM ubuntu:trusty
-MAINTAINER "Andrey Usov <ownport@gmail.com>"
 
 RUN \
     apt-key adv --keyserver keyserver.ubuntu.com --recv-keys C300EE8C && \
