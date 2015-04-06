@@ -10,7 +10,7 @@ RUN chmod +x /deploy/scripts/*.sh
 
 
 RUN /deploy/scripts/deploy2opt.sh \
-	http://download.oracle.com/otn-pub/java/jdk/8u40-b26/jdk-8u40-linux-x64.tar.gz \
+	http://download.oracle.com/otn-pub/java/jdk/8u40-b26/jre-8u40-linux-x64.tar.gz \
 	'--header "Cookie: oraclelicense=accept-securebackup-cookie"'
 
 RUN apt-get clean && \
