@@ -8,9 +8,11 @@
 
 Java SE (Standard Edition)
 
-Version | Type | URL 
-------- | ---- | ------------------------------------------------------------------------------------------
-8u40    | JDK  | http://download.oracle.com/otn-pub/java/jdk/8u40-b26/jdk-8u40-linux-x64.tar.gz
+Version | Type        | URL 
+------- | ----------- | ------------------------------------------------------------------------------------------
+8u40    | JDK         | http://download.oracle.com/otn-pub/java/jdk/8u40-b26/jdk-8u40-linux-x64.tar.gz
+8u40    | Server JRE  | http://download.oracle.com/otn-pub/java/jdk/8u40-b26/server-jre-8u40-linux-x64.tar.gz
+8u40    | JRE         | http://download.oracle.com/otn-pub/java/jdk/8u40-b26/jre-8u40-linux-x64.tar.gz
 
 
 ## Links
