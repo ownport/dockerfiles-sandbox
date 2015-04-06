@@ -55,3 +55,17 @@ docker run --rm ${IMAGE}:latest /opt/java7/bin/java -version
 ```
 
 [source](http://stackoverflow.com/questions/22080706/how-to-create-named-and-latest-tag-in-docker/)
+
+
+## Best practice
+
+### Clean spaces
+
+apt-get clean
+rm -rf /tmp/* /var/tmp/*
+rm -rf /var/lib/apt/lists/*
+rm -rf /etc/ssh/ssh_host_*
+rm -rf /usr/share/man/??
+rm -rf /usr/share/man/??_*
+
+
