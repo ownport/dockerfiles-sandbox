@@ -13,3 +13,6 @@ RUN /deploy/docker-creator-master/rerun install:cloudera-cdh-1click-install cdh4
 
 RUN /deploy/docker-creator-master/rerun misc:clean
 
+ENV JAVA_HOME /opt/jdk1.7.0_75
+ENV PATH $JAVA_HOME/bin:$PATH
+
