@@ -13,7 +13,7 @@ Dockerized SSH service, built on top of Ubuntu 14.04 image.
 ## How to run
 
 ```sh
-$ docker run -d -p 8022:22 --name sshd-server sshd:u14.04
+$ docker run -d -p 8022:22 --name sshd-server sshd:u1404
 $ ssh root@localhost -p 8022
 ```
 
