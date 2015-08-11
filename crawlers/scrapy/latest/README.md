@@ -9,7 +9,7 @@ Requirements:
 ## how to run
 
 ```sh
-$ docker run -i --rm -t --name scrapy -v <path-to-scrapy-projects>:/data scrapy /data/run-as.sh ${USER} ${UID} /bin/bash
+$ docker run -i --rm -t --name scrapy -v <path-to-scrapy-projects>:/data/project/ scrapy 
 ```
 
 ## Links
