@@ -8,7 +8,7 @@ RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 RUN mkdir -p /data/bin
-RUN mkdir -p /data/project
+RUN mkdir -p /data/projects
 
 ADD scripts/create-env.sh /data/bin/
 RUN chmod +x /data/bin/*.sh

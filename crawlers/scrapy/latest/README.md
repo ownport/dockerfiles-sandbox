@@ -9,7 +9,8 @@ Requirements:
 ## how to run
 
 ```sh
-$ docker run -i --rm -t --name scrapy -v <path-to-scrapy-projects>:/data/project/ scrapy 
+$ cd ${SCRAPY_PROJECTS}
+$ docker run -ti --rm --name scrapy -v $(pwd)/projects:/data/projects/ scrapy 
 ```
 
 ## Links
